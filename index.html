@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <title>Random-quote</title>
+    <style>
+        body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 80%;
+  max-width: 700px;
+  border: 5px black solid;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.card-body {
+  padding: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>loading...</p>
+                <footer class="blockquote-footer">
+                    <cite title="Source Title"></cite>
+                </footer>
+            </blockquote>
+        </div>
+        <div class="card-footer">
+            <button class="btn btn-primary">New Quote
+        </div>
+    </div>
+    </div>
+</body>
+</html>
